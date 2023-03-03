@@ -1,0 +1,134 @@
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+/** footer **/
+
+.footer {
+  background: #ffffff;
+  padding-top: 90px;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.btnfooter{
+  background: #f7d004;
+  font-weight: 500;
+  font-size: 20px;
+  width: 155px;
+  text-transform: uppercase;
+  font-family: 'Concert One', cursive;
+  height: 49px;
+  margin-left: -1px;
+}
+
+.footer h3 {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 40px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.footer p {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  line-height: 28px;
+  text-align: left;
+  padding-right: 60px;
+}
+
+ul.location_icon {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  flex-grow: 2;
+}
+
+.fid_box{
+  display: flex;
+}
+
+
+
+ul.location_icon li {
+  font-size: 17px;
+  color: white;
+  text-align: left;
+  padding: 9px 0px;
+  display: flex;
+  align-items: center;
+  line-height: 26px;
+}
+
+ul.location_icon li a {
+  font-size: 30px;
+  color: white;
+  line-height: 30px;
+  padding-right: 20px;
+}
+
+.news_form {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.news_form .letter_form {
+  font-family: 'Poppins', sans-serif;
+  height: 45px;
+  width: 46%;
+  padding: 0 13px;
+  font-size: 17px;
+  border: solid;
+}
+
+ul.social_icon {
+  padding-top: 30px;
+  float: left;
+  text-align: center;
+}
+
+ul.social_icon li {
+  display: inline-block;
+}
+
+.copyright {
+  margin-top: 80px;
+  padding-bottom: 20px;
+  background: #fbfdfd;
+}
+
+.copyright p {
+  color: #292929;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding-top: 25px;
+  font-weight: normal;
+  padding-right: 0 !important;
+}
+
+.copyright a {
+  color: #292929;
+}
+
+.copyright a:hover {
+  color: rgb(16, 160, 250);
+}
+
+.k {
+  color: white;
+  text-decoration: none;
+  font-family: 'Concert One', cursive;
+}
+
+.k:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+.fid_box h3{
+  text-align: center;
+}
